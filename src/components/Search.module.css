@@ -1,0 +1,26 @@
+.SearchContainer {
+  margin: 20px auto;
+  width: 300px;
+  position: relative;
+  background: linear-gradient(135deg, #29bb89, #1e1f26); 
+  padding: 15px;
+  border-radius: 12px; 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.input {
+  border: none;
+  border-bottom: 2px solid #e3e4dc;
+  padding: 12px 20px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  color: #ffffff; 
+  background-color: transparent; 
+  transition: border-bottom 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.input:focus {
+  border-bottom: 2px solid #f7b731; 
+  box-shadow: 0 1px 0 rgba(247, 183, 49, 0.5); 
+}
